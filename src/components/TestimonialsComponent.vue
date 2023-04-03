@@ -5,7 +5,7 @@
               <div class="row" style="gap: 2rem">
                     <div v-for="item in info" :key="item" class="card text-center">
                         <i class="fa fa-quote-left fa-3x card-img-top rounded-circle" aria-hidden="true"></i>
-                      <img :src="item.image" data-aos="zoom-in" style="height: 100%;width: 100%;border-radius: 50%;padding: 10px;" class="image-fluid">
+                      <img :src="item.image" data-aos="zoom-in" style="height: 100%;width: 100%;border-radius: 50%;padding: 20px;" class="image-fluid">
                     <div class="overlay">
                       <div class="text">
                           <cite title="Source Title"><b>{{ item.name }}</b></cite>
@@ -34,13 +34,7 @@ export default {
                     reference: 'Life Choices Academy Lecturer',
                     image: "https://i.postimg.cc/Px3Mh4GR/Joel-Profile.jpg",
                     message: 'Meezan is very creative, well-behaved, and dedicated; he enjoys working with his Peers and works well on his project. He has learned a variety of skills, such as JavaScript, ExpressJS, MySQL, Wireframe, VueJS, Bootstrap, and many more. I am honored to present him to you as one of the great candidates / developers that you have never come across. I am wishing him all the best.'
-                },
-                {
-                    name: 'Candice Amon',
-                    reference: 'Life Choices Academy Facilitator',
-                    image: "https://i.postimg.cc/Px3Mh4GR/Joel-Profile.jpg",
-                    message: 'Meezan is very creative, well-behaved, and dedicated; he enjoys working with his Peers and works well on his project. He has learned a variety of skills, such as JavaScript, ExpressJS, MySQL, Wireframe, VueJS, Bootstrap, and many more. I am honored to present him to you as one of the great candidates / developers that you have never come across. I am wishing him all the best.'
-                },
+                }, 
                 {
                     name: 'Brogan Gys',
                     reference: 'Peer',

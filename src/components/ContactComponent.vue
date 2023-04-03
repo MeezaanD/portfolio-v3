@@ -20,10 +20,9 @@
                   <div class="text-one">meezaandavids365@gmail.com</div>
                 </div>
                 <ul>
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-github"></i></li>
-                    <li><i class="fa-brands fa-linkedin"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><a href="https://www.instagram.com/meezaan.davids/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/MeezaanD" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/meezaan-davids-4a7aa8265/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
               </div>
               <div data-aos="zoom-out-down" class="right-side">

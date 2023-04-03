@@ -9,7 +9,7 @@
             <li><div class="text"></div></li>
           </ul>
           <ul class="buttons">
-            <li><a class="btn" href="#">Get to Know Me</a></li>
+            <li><a class="btn" href="#about">Get to Know Me</a></li>
           </ul>
       </div>
     </div>

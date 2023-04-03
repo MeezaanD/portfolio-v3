@@ -3,16 +3,21 @@
         <h6 class="heading">Projects</h6>
         <h4 class="text-center">My Latest Work</h4> 
            <div class="row gap-3 p-3">
-                <div class="container" v-for="item in projects" :key="item">
+                <div  data-aos="zoom-out-up" class="container" v-for="item in projects" :key="item">
                 <img :src="item.image" class="image">
                 <div class="overlay">
-                  <h3 class="text">{{ item.name }}
-                    <br><br> 
-                      <div class="btn-group">
-                        <a :href="item.github" target="_blank" class="btn btn-outline-dark">Github</a>
-                        <a :href="item.live" target="_blank" class="btn btn-outline-dark">Live </a>
+                    <div class="text">
+                        <h3>{{ item.name }}</h3>
+                        <p>{{ item.language }}</p>
+                        <p>{{ item.desc }}</p>
+                        
+                          <br><br> 
+                            <div class="btn-group">
+                              <a :href="item.github" target="_blank" class="btn btn-outline-dark"><i class="fa-brands fa-github"></i></a>
+                              <a :href="item.live" target="_blank" class="btn btn-outline-dark"><i class="fa-brands fa-chrome"></i></a>
+                    </div>
                       </div>
-                  </h3>
+                  
            </div>
             </div>
           </div>
@@ -26,28 +31,32 @@ export default {
      projects : [
     {
         language: 'HTML & CSS',
-        name: 'Portfolio',
-        image:"https://i.postimg.cc/mDwG2M4Q/first-Porfolio.png",
+        name: 'First Portfolio',
+        desc: 'This was my first Portfolio built with HTML & CSS',
+        image:"https://i.postimg.cc/yxq1dGF1/7fcf815a55c64fe566302fa4f0037095.webp",
         github: "https://github.com/MeezaanD/Portfolio.git",
         live: "https://phenomenal-semolina-67d782.netlify.app/"
     },
     {
         language: 'Vue 3 & Node Js',
         name: 'Active8',
-        image: "https://i.postimg.cc/Bv2Q7z9B/active.png" ,
+        desc: 'This was my first fullstack project built with my peer Cassidy Lawrence working on the backend',
+        image: "https://i.postimg.cc/1RFg1tr8/activ8.png" ,
         github: "https://github.com/CassidyRomarioLawrence/Activ8_nodeEOMP",
         live: "https://activ8-fullstack.web.app"
     },
     {
-        language: 'HTML & CSS',
+        language: 'HTML, Bootstrap',
         name: 'Ecommerce Website',
-        image:"https://i.postimg.cc/rpR1kCSP/ecommerce.png",
+        desc: 'Home page built using bootstrap for the first time',
+        image:"https://i.postimg.cc/zBPkYsHJ/14d87a3887139e044ed629ae32107c1e.jpg",
         github: "https://github.com/MeezaanD/Ecommerce-Project.git",
         live: "https://ecomprojectmeezaan.netlify.app/"
     },
     {
       language: 'HTML, CSS, Javascript',
       name: 'Calculator App',
+      desc: 'Basic calculator built with HTML, CSS & Javascript',
       image: "https://i.postimg.cc/4y5DrRMV/calculator.png",
       github: "https://github.com/MeezaanD/Calculator-TEST-.git",
       live: "https://calculator-md240503.netlify.app"
@@ -55,16 +64,26 @@ export default {
     {
         language: 'HTML, CSS, Javascript',
         name: 'Point of Sales',
-        image: "https://i.postimg.cc/L5YYzyhk/pos.png",
+        desc: 'Ecommerce website built with a cart and checkout system',
+        image: "https://i.postimg.cc/GmZCjcMY/Grey-Apple-IDi-PAd.png",
         github: "https://github.com/MeezaanD/MD-POS.git",
         live: "https://meezaanpointofsales.netlify.app"
       },
       {
         language: 'Vue',
         name: 'Mini-Project',
-        image: "https://i.postimg.cc/prPWhHn1/mini.png",
+        desc: 'Basic home page design of a Mercedes Website',
+        image: "https://i.postimg.cc/3R6GzfMP/download.jpg",
         github: "https://github.com/MeezaanD/Mini-Project.git",
         live: "https://miniprojectmeezaan.netlify.app/"
+      }, 
+      {
+        language: 'Vue JS, Node JS, MySQL',
+        name: 'Nightcrawler',
+        desc: 'FullStack Ecommerce Capstone Project',
+        image: "https://i.postimg.cc/Z0kmQ4WF/NC2.png",
+        github: "https://github.com/MeezaanD/Capstone-project",
+        live: "https://nightcrawler-9e9da.web.app/"
       }
   ], 
     }
@@ -111,9 +130,9 @@ export default {
   .text {
     color: white;
     font-family: 'Merienda', cursive;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
