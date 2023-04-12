@@ -79,7 +79,7 @@ export default {
 
 <style scoped>
 #testimonials {
-    background-image: linear-gradient(white, rgb(103, 172, 224));
+    background-image: linear-gradient( rgb(103, 172, 224), rgba(202,202,202,255));
     height: auto;
 }
 
@@ -87,8 +87,8 @@ export default {
     margin: auto;
     justify-content: center;
     padding: 20px;
-    width: 25rem;
-    height: 25rem;
+    width: 30rem;
+    height: 30rem;
     background-color: transparent;
     border-radius: 50%;
     box-shadow: 0 5px 10px rgb(0, 44, 78);

@@ -56,7 +56,7 @@ export default {
 
 <style scoped>
 #contact {
-    background-image: linear-gradient(rgb(103, 172, 224), white);
+    background-image: linear-gradient(rgba(202,202,202,255), rgb(103, 172, 224));
     min-height: 90vh;
 }
 

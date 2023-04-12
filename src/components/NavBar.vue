@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
               <li class="nav-item">
                 <a class="nav-link" href="#home">Home</a>
               </li>
@@ -39,20 +39,19 @@ export default {
 <style scoped>
     nav {
         width: 100%;
-        color: transparent;
         border: 2px solid rgba(255,255,255,0.06);
-        box-shadow: 0 10px 10px rgb(21, 48, 66);
+        box-shadow: 0 15px 30px rgba(21, 48, 66, 0.5);
         backdrop-filter: blur(10px);
         height: auto;
     }
 
     .navbar, .container {
-        background-color: rgb(103, 172, 224);
+        background-color: rgba(202,202,202,255);
     }
 
     .nav-link {
         font-family: 'Merienda', cursive;
-        color: white;
+        color: rgb(103, 172, 224);
         font-size:larger
     }
     .nav-link:hover {

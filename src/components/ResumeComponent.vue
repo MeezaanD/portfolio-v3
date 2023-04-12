@@ -23,9 +23,9 @@
                     <b>Technical Skills</b>
                     <br><br>
                         <div data-aos="zoom-out-up" class="row row-cols-1 align-items-start">
-                          <div class="col"><i class="bi bi-filetype-html"></i></div>
-                          <div class="col"><i class="bi bi-filetype-css"></i></div>
-                          <div class="col"><i class="bi bi-filetype-js"></i></div>
+                          <div class="col"><i class="fa-brands fa-html5"></i></div>
+                          <div class="col"><i class="fa-brands fa-css3-alt"></i></div>
+                          <div class="col"><i class="fa-brands fa-js"></i></div>
                           <div class="col"><i class="bi bi-bootstrap"></i></div>
                           <div class="col"><i class="fa-brands fa-vuejs"></i></div>
                           <div class="col"><i class="fa-brands fa-node-js"></i></div>
@@ -83,7 +83,7 @@ export default {
 
 <style scoped>
 #resume {
-    background-image: linear-gradient(white, rgb(103, 172, 224));
+    background-image: linear-gradient( rgb(103, 172, 224), rgba(202,202,202,255));
     height: auto;
 } 
 

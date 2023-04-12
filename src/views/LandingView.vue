@@ -1,4 +1,5 @@
 <template>
+    <NavBar/>
    <HomeComponent/>
    <AboutComponent/>
    <ResumeComponent/>
@@ -13,6 +14,7 @@
 
 <script>
 
+import NavBar from '@/components/NavBar.vue'
 import HomeComponent from '@/components/HomeComponent.vue'
 import AboutComponent from '@/components/AboutComponent.vue'
 import ResumeComponent from '@/components/ResumeComponent.vue'
@@ -24,6 +26,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 
 export default {
     components: {
+        NavBar,
         HomeComponent, 
         AboutComponent, 
         ResumeComponent, 

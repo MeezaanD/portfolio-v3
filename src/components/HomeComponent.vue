@@ -1,6 +1,7 @@
 <template>
   <div id="home">
-    <div class="container" style="padding-top: 250px">
+    <img class="img-fluid" src="https://i.postimg.cc/SNKr66k3/12345.jpg" alt="">
+    <div class="container">
       <h1>Welcome to the Portfolio of <span>Meezaan Davids</span></h1>
       <br />
       <div class="box" style="min-height: 50vh;padding:0"> 
@@ -47,33 +48,59 @@ export default {
 
 <style scoped>
 #home {
-  background: rgb(103, 172, 224);
-  height: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+#home img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   text-align: center;
-  color: white;
+  color: rgb(103, 172, 224);
   font-family: 'Merienda', cursive;
-  font-size: 58px;
+  font-size: 30px;
+  z-index: 1;
 }
 
 span {
   color: rgb(0, 44, 78);
   font-family: 'Merienda', cursive;
 }
+
 .iam {
-  color: white;
-  font-size: 45px;
+  color: rgb(103, 172, 224);
+  font-size: 25px;
   font-family: 'Merienda', cursive;
 }
+
 .text {
-  color: white;
-  font-size: 45px;
+  color: rgb(103, 172, 224);
+  font-size: 25px;
   font-family: 'Merienda', cursive;
   color: rgb(0, 44, 78);
   text-align: center;
   width: 100%;
+  z-index: 1;
 }
 
 .info {
@@ -84,6 +111,7 @@ span {
   gap: 20px;
   justify-content: center;
 }
+
 .buttons {
   list-style: none;
   display: flex;
@@ -92,16 +120,15 @@ span {
 }
 
 .btn {
-  background: transparent;
-  border: 1px solid white;
-  color: rgb(0, 44, 78);
-  border-radius: 0;
+  background: rgb(103, 172, 224);
+  color: white;
+  border-radius: 3px;
   font-family: 'Merienda', cursive;
   padding: 15px;
 }
 
 .btn:hover {
-  background: white;
-  color: black;
+  background: rgb(0, 44, 78);
+  color: white;
 }
 </style>

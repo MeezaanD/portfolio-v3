@@ -30,12 +30,20 @@ export default {
         return {
      projects : [
     {
-        language: 'HTML & CSS',
+        language: 'HTML, CSS, & Bootstrap',
         name: 'First Portfolio',
-        desc: 'This was my first Portfolio built with HTML & CSS',
+        desc: 'This was my first Portfolio built with HTML, CSS, & Bootstrap',
         image:"https://i.postimg.cc/yxq1dGF1/7fcf815a55c64fe566302fa4f0037095.webp",
         github: "https://github.com/MeezaanD/Portfolio.git",
         live: "https://phenomenal-semolina-67d782.netlify.app/"
+    },
+    {
+        language: 'HTML, CSS, & Bootstrap',
+        name: 'Second Portfolio',
+        desc: 'This was my second Portfolio built with Vue JS',
+        image:"https://i.postimg.cc/x8wRcZtb/landing.jpg",
+        github: "https://github.com/MeezaanD/meezaan-vue-portfolio.git",
+        live: "https://meezaan-portfolio.web.app/"
     },
     {
         language: 'Vue 3 & Node Js',
@@ -93,7 +101,7 @@ export default {
 
 <style scoped>
 #projects {
-    background-image: linear-gradient(rgb(103, 172, 224), white);
+    background-image: linear-gradient(rgba(202,202,202,255), rgb(103, 172, 224));
     height: auto;
 }
 
@@ -104,8 +112,8 @@ export default {
   
   .image {
     display: flex;
-    width: 100%;
-    height: 20rem;
+    max-width: 23rem;
+    height: 23rem;
   }
   
   .overlay {

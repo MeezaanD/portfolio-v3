@@ -2,7 +2,7 @@
     <footer>
         <div class="container text-center">
             <div class="row align-items-center">
-                <div class="col-sm-4">
+                <!-- <div class="col-sm-4">
                     <a href="#"><img src="https://i.postimg.cc/g224F76q/logo.png" style="height:7vh" alt=""></a>
                 </div>
                 <div class="col-sm-4 text-center">
@@ -15,7 +15,8 @@
                 </div>
               <div class="col-sm-4 text-center">
                 <p>&copy;Copyright {{ thisYear }} | Designed By Meezaan Davids</p>
-              </div>
+              </div> -->
+              <p>&copy;Copyright {{ thisYear }} | Designed By Meezaan Davids</p>
             </div>
           </div>
     </footer>
@@ -33,7 +34,7 @@ export default {
     footer {
         height: auto;
         padding: 30px;
-        background:  rgb(103, 172, 224);
+        background: rgba(202,202,202,255);
     }
 
     a {

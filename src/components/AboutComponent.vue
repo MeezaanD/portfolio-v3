@@ -45,7 +45,7 @@ export default {
 <style scoped>
 
 #about {
-    background-image: linear-gradient(rgb(103, 172, 224), white);
+    background-image: linear-gradient(rgba(202,202,202,255), rgb(103, 172, 224));
     height: auto;
 }
 
